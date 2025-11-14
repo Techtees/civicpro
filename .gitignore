@@ -11,13 +11,14 @@ build
 out
 doc
 
-# Development
-.DS_Store
+# Environment variables (NEVER commit .env!)
+.env
 .env.local
 .env.development.local
 .env.test.local
-.env.example
 .env.production.local
+
+# Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -39,6 +40,3 @@ server/public
 vite.config.ts.*
 *.tar.gz
 .cache
-
-# Sensitive files (keep .env.example, ignore actual .env)
-.env

@@ -1,0 +1,172 @@
+Absolutely! Here’s a breakdown of the functionality and corresponding screens for your MVP civic platform: CivicView.
+
+🧭 FUNCTIONALITY OVERVIEW + SCREENS
+
+🏠 1. Home Screen
+Purpose: Entry point showcasing featured politicians, popular comparisons, and quick filters.
+Key Functionality:
+Search bar (name, district, party).
+
+
+Featured politicians.
+
+
+Quick filters (Top Rated, Most Active, By District).
+
+
+Call-to-action: “Compare Politicians” or “Rate a Politician.”
+
+
+UI Elements:
+Hero banner with mission.
+
+
+Tiles/cards of politicians with photo + rating.
+
+
+Navigation: Home | Directory | Compare | About | Admin (if logged in)
+
+
+
+📇 2. Politician Directory Screen
+Purpose: Browse all politicians in a sortable, filterable list.
+Key Functionality:
+Filter by: District, Party, Rating, Promise Fulfillment.
+
+
+Sort by: Name, Popularity, Rating.
+
+
+Pagination or infinite scroll.
+
+
+Click-through to full profile.
+
+
+UI Elements:
+Sidebar filters
+
+
+List/grid of politician cards
+
+
+District map overlay (optional future enhancement)
+
+
+
+👤 3. Politician Profile Screen
+Purpose: Detailed information on a politician.
+Key Functionality:
+Name, photo, party, district.
+
+
+Manifesto summary (3–5 promises).
+
+
+Voting record summary (% aligned with promises).
+
+
+Promise fulfillment tracker (✅ / ❌ with dates).
+
+
+Public rating summary (stars + avg score).
+
+
+Comment/review section (pending moderation).
+
+
+UI Elements:
+Tabbed sections: Overview | Manifesto | Voting Record | Ratings
+
+
+"Compare" button
+
+
+"Leave a Rating" modal
+
+
+
+🌟 4. Rating & Comment Modal
+Purpose: Allow users to submit a review.
+Key Functionality:
+Rate (1 to 5 stars).
+
+
+Text comment box (limit 250 chars).
+
+
+Submit sends comment to moderation queue.
+
+
+UI Elements:
+Rating selector (stars).
+
+
+Textarea input.
+
+
+Submit confirmation with moderation notice.
+
+
+
+⚖️ 5. Comparison Tool Screen
+Purpose: Side-by-side comparison of 2–3 politicians.
+Key Functionality:
+Select 2–3 politicians via dropdown or search.
+
+
+Display comparative stats:
+
+
+Party, district
+
+
+Manifesto promises
+
+
+Voting fulfillment rate
+
+
+Ratings (average and breakdown)
+
+
+Top user comments
+
+
+UI Elements:
+Split-pane view
+
+
+Bar charts or icon visualizations
+
+
+Select politicians dropdown/search
+
+
+
+✅ 6. Admin Backend Dashboard
+Purpose: For moderators/admins to manage data and content.
+Key Functionality:
+Login system (basic auth or email/password)
+
+
+Politician management:
+
+
+Add/edit/delete profiles
+
+
+Upload/update manifestos on politician's profile
+
+
+Link votes to promises
+
+
+Comment moderation queue:
+
+
+Approve/reject/delete
+
+
+
+
